@@ -1,0 +1,45 @@
+.login-page{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701683052.jpg') center/cover no-repeat;
+    justify-content: center;
+
+}
+.login-form{
+    position: absolute; 
+    top: 20%; 
+    left: 50%; 
+    background-color: rgb(156, 156, 119);
+    border-radius: 20px;
+    width: 40%;
+    height: 50vh;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.6rem;
+    transform: translate(-50%, 0%);
+}
+form{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.form-control{
+    width: 80%;
+    height: 30px;
+    margin: 10px 0;
+}
+.btn-login{
+    width: 30%;
+    border-radius: 30px;
+    height: 30px;
+    font-size: 1.2vw;
+    background-color: rgb(165, 18, 18);
+}
+.form-note{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 1.5vw;
+}

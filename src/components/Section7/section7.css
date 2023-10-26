@@ -1,0 +1,50 @@
+.section7 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 30px 0px 0px 50px ;
+    color: white;
+    /* background-color: aqua; */
+
+  } 
+  .sec-7-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 30px;
+    
+  }
+  .sec-7-left button{
+    border: solid 1px white;
+  }
+  
+  .col-sec7 {
+    padding: 10px 0px 0px 0px;
+    flex: 50%;
+
+  }
+  .col-sec7 img {
+    padding-top: 30px ;
+    padding-top: 0px;
+    padding-right: 0px;
+    width: 100%;
+    border-radius: 30px 0px 0px 0px;
+    height: 300px;
+    display: block;
+    
+
+  }
+   /* Responsive layout - makes a one column-layout instead of a two-column layout */
+   @media (min-width: 400px) {
+    .col-sec7{
+      flex: 60%;
+    }
+}
+
+@media (min-width: 800px) {
+    .col-sec7{
+      flex: 20%;
+}
+}

@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    height: auto;
+    background-color: var( --grey-color);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(203, 206, 206);
+    background:linear-gradient(rgb(203, 206, 206,.04), rgb(203, 206, 206,.02)), url('https://i.pinimg.com/736x/85/6f/31/856f31d9f475501c7552c97dbe727319.jpg') center/cover no-repeat;
+}
+.sub-section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(237, 237, 238);
+}
+.sub-section1{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.sub-section7{
+    width: 100%;
+    height: auto;
+    background-color: var( --green-color)
+}
+.sub-section-footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}

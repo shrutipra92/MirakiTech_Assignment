@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: center;
+    padding: 30px 50px 0px 50px ;
+    color: white;
+    margin-bottom: 50px;
+
+  } 
+  
+  .colf {
+    padding: 10px;
+    flex: 10%;
+
+  }
+  .copyright{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: white;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin: 0 3%;
+    border-top: 1px solid gray;
+  }
+  .col1{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    padding: 10px 0px;
+    gap:10px;
+
+  }
+
+  .footer ul{
+    list-style: none;
+    font-size: 16px;
+  }
+   /* Responsive layout - makes a one column-layout instead of a two-column layout */
+   @media (min-width: 500px) {
+    .colf{
+      flex: 60%;
+    }
+}
+
+@media (min-width: 800px) {
+    .colf{
+      flex: 20%;
+}
+}
